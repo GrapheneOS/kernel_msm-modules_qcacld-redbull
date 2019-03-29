@@ -7,7 +7,7 @@ config QCA_CLD_WLAN
 	help
 	Add support for the Qualcomm Atheros CLD WLAN module
 
-if QCA_CLD_WLAN != n
+if BROKEN
 
 config QCACLD_WLAN_LFR3
 	bool "Enable the WLAN Legacy Fast Roaming feature Version 3"
