@@ -1,3 +1,5 @@
+TARGET_BUILD_VARIANT ?= user
+
 # We can build either as part of a standalone Kernel build or as
 # an external module.  Determine which mechanism is being used
 ifeq ($(MODNAME),)
